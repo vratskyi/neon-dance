@@ -66,7 +66,7 @@
                 <nuxt-img
                   src="/assets/img/water-website-min.png"
                   class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
-                  alt=""
+                  alt="h2ovoda.com.ua is a water delivery service based on Astro SSR technology"
                   loading="over-eager"
                 />
               </button>
@@ -79,7 +79,7 @@
                 <nuxt-img
                   src="/assets/img/online-store.png"
                   class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
-                  alt=""
+                  alt="lmd.lviv.ua is a paper gift bags service based on WordPress & WooCommerce technology"
                 />
               </button>
             </div>
@@ -91,7 +91,7 @@
                 <nuxt-img
                   src="/assets/img/landing-page.png"
                   class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
-                  alt=""
+                  alt="vratsky.com is a personal portfolio site based on Vue 3 and Nuxt 3 technologies"
                 />
               </button>
             </div>
@@ -103,7 +103,7 @@
                 <nuxt-img
                   src="/assets/img/personal-blog.png"
                   class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
-                  alt=""
+                  alt="blog.vratsky.com is a personal blog site based on Astro SSR technology"
                 />
               </button>
             </div>
@@ -191,7 +191,7 @@
               src="@/assets/img/water-website-min.png"
               class="max-w-[500px] w-full aspect-video"
               loading="lazy"
-              alt=""
+              alt="h2ovoda.com.ua is a water delivery service based on Astro SSR technology"
             />
           </div>
         </div>
@@ -276,7 +276,7 @@
               src="@/assets/img/online-store.png"
               class="max-w-[500px] w-full aspect-video"
               loading="lazy"
-              alt=""
+              alt="lmd.lviv.ua is a paper gift bags service based on WordPress & WooCommerce technology"
             />
           </div>
         </div>
@@ -339,7 +339,7 @@
               src="@/assets/img/landing-page.png"
               class="max-w-[500px] w-full aspect-video"
               loading="lazy"
-              alt=""
+              alt="vratsky.com is a personal portfolio site based on Vue 3 and Nuxt 3 technologies"
             />
           </div>
         </div>
@@ -419,7 +419,7 @@
               src="@/assets/img/personal-blog.png"
               class="max-w-[500px] w-full aspect-video"
               loading="lazy"
-              alt=""
+              alt="blog.vratsky.com is a personal blog site based on Astro SSR technology"
             />
           </div>
         </div>
