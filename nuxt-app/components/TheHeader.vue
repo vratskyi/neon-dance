@@ -167,6 +167,7 @@
             class="mb-3 opacity-80"
             width="120"
             height="18"
+            alt="Oleksii Vratskyi - full logo"
           ></nuxt-img
         ></nuxt-link>
         <p>Copiright <span>&#169;</span> 2022</p>

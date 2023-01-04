@@ -12,6 +12,7 @@
         <img
           width="40"
           height="40"
+          alt="Ukraine national flag"
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADjUlEQVRoge2ZT2wUVRzHv9+306rQkgCSiIU0IDBNOO6C4diGi57w4J9YTTyYNE0L4U5MMDHehW5lY8KpJFA8aKIcG25E2r27DZoGazVK98COJS2d+XqAGJw/nXn7Z2jCfo6/93s7n9++eTPz3gO6dHmxYVt+ZVaFwXrjpAkwLLBogCEB+wH0Pc3wBKwAqBGqCppb+mvXXVxk0OqlWyrgjfLaQTGYAPSRgAHLKy8r4Izjm/K9czuWm3VoqoAjlxr7fAdfAPgEQG+zF3/KBoGrTkGfLY7temDb2bqAw9Peh4IuA9hj2zeFVRGTS+P91206ZS6gWFFP3femAXxqrWYBhcpup+9sdYyPM+VnSXq9oh0v+41vBb7Vml42JN3acPrfXRnjWlquSUsoVtSTpzwAkHz7Jd/7/visUudXagF135vOU/4ZTj964H2VlrTlLXT4a29U0kz7nOyR8MHSRP+NpPbEAgamHu7tNfwZwKsdMctOvacgN+kRm3gL9Rp+iecvDwB7Hgf8PKkxdgSOXFo74Dv+L2j9JdUuNlhwjv469sr9cEPsCAROMIntIw8AvcGmPx7XEC3gooyo0Y4rWWKojzGrQiQeDgy+1ngTwoF8tLIjYODQ6sNiOB4pwAQYzkfJHoIj4VikAIqlfHTsEZg+AgFxLB+dpnDDgegIPFlJbU8UdYt7jPbFxLYL/eGAEw7cG4nMk21F+DkaNwJeHiJN0ggHogUQf+Si0hwRt+gkDrCYj4s9BGvhWKQAQQv56NgjIOIWfROrMJePjj2GirhFPqclmKB2YgnAwVyssnPfuPOHSPxvNy86B4gAwrX8vDJCXAvLAwnrAeOYMoCNjktlZ93AKcc1xBbAoz8tA7raWScLyG/o3vk9rilxTWz8ngsArPcqO8CqgZ+4Jk4sgMfv1EWd7YxTdgSO060m/pFbbmw57sJ1gJX2a2VEKDtDd29ulZK6M2fcwQlC37XPKhuUfjR/7jyflpdaAHnTp6dRgrfao5YOiR/4j97j8O3NtNzUAgCApeoaPf8MoCut66UglLmy8x2Wqqk700ATBxybtRPvU5hC+3ft/hY4kXbPh8k0As/iuPM3jDgEYBrAum3/GNZBThnfGbKVB1o85FPt1EAQbE6CGIX9t9NvIGYMnHLSSyoLbTlmlWCwWCoF4AjFoiAXT04t/ztmBbRMmEUBC4aaw7H5aty3TZcuXez4F3L2Eh2go8QYAAAAAElFTkSuQmCC"
         />
         <span class="sr-only">Check icon</span>
