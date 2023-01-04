@@ -21,6 +21,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      // script: [
+      //   {
+      //     src: "/assets/js/flowbite.js",
+      //     async: true,
+      //     defer: true,
+      //     crossorigin: "anonymous",
+      //   },
+      // ],
       title: "VRATSKYI",
       meta: [
         { charset: "utf-8" },

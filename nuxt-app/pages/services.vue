@@ -1,5 +1,7 @@
 <template>
   <main
+    @mouseenter="hoverItem()"
+    @mouseleave="hoverItem()"
     class="relative shadow-top shadow-bottom lg:rounded-2xl lg:mr-[3.333%] 2xl:mr-[10.333%] lg:place-self-end 2xl:place-self-center h-screen lg:max-h-[90%] xl:max-h-[80%] w-full lg:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[70%] 2xl:max-h-[80%] my-auto xl:ml-[12.2222%] 2xl:mx-auto transition-all duration-150 lg:border-4 border-purple-500/30 shadow-2xl shadow-purple-500/50 bg-black/10 lg:bg-black/30 backdrop-blur overflow-y-auto"
   >
     <Head>
@@ -747,6 +749,7 @@
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-4 mt-5 gap-2 xl:gap-5">
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -761,6 +764,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -775,6 +779,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -789,6 +794,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -803,6 +809,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -817,6 +824,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -831,6 +839,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -845,6 +854,7 @@
             </p>
           </div>
           <div
+            id="hoverItem"
             class="2xl:place-self-start min-w-full bg-gradient-to-r from-blue-500/30 to-purple-500/10 p-4 xl:p-5 rounded-2xl transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <h3
@@ -897,6 +907,7 @@
           class="grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-2 place-content-center text-center place-self-center gap-5 lg:gap-8 mt-10 mb-10 lg:mb-0 lg:mt-10 2xl:mt-0 text-white"
         >
           <div
+            id="hoverItem"
             class="grid place-items-center bg-gradient-to-r from-blue-500/30 to-purple-500/10 rounded-lg p-3 lg:p-5 xl:p-5 transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <div>
@@ -919,11 +930,12 @@
             <div
               class="p-2 text-sm xl:text-lg xl:font-black text-white my-2 xl:my-0"
             >
-              <h4>Done projects</h4>
+              <h4 class="font-light">Done projects</h4>
             </div>
             <div class="text-xl font-black text-white/80">25+</div>
           </div>
           <div
+            id="hoverItem"
             class="grid place-items-center bg-gradient-to-r from-blue-500/30 to-purple-500/10 rounded-lg p-3 lg:p-5 transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <div>
@@ -949,11 +961,12 @@
             <div
               class="p-2 text-sm xl:text-lg xl:font-black text-white my-2 xl:my-0"
             >
-              <h4>Developming</h4>
+              <h4 class="font-light">Developming</h4>
             </div>
             <div class="text-xl font-black text-white/80">3Y+</div>
           </div>
           <div
+            id="hoverItem"
             class="grid place-items-center bg-gradient-to-r from-blue-500/30 to-purple-500/10 rounded-lg p-3 lg:p-5 transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <div>
@@ -973,11 +986,12 @@
             <div
               class="p-2 text-sm xl:text-lg xl:font-black text-white my-2 xl:my-0"
             >
-              <h4>Technologies</h4>
+              <h4 class="font-light">Technologies</h4>
             </div>
             <div class="text-xl font-black text-white/80">7+</div>
           </div>
           <div
+            id="hoverItem"
             class="grid place-items-center bg-gradient-to-r from-blue-500/30 to-purple-500/10 rounded-lg p-3 lg:p-5 transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
           >
             <div>
@@ -1000,7 +1014,7 @@
             <div
               class="p-2 text-sm xl:text-lg xl:font-black text-white my-2 xl:my-0"
             >
-              <h4>Sales growth</h4>
+              <h4 class="font-light">Sales growth</h4>
             </div>
             <div class="text-xl font-black text-white/80">1000%+</div>
           </div>
@@ -1012,15 +1026,30 @@
 
 <script>
 export default {
-  head: {
-    script: [
-      {
-        src: "/assets/js/flowbite.js",
-        async: true,
-        defer: true,
-        crossorigin: "anonymous",
-      },
-    ],
+  data() {
+    return {
+      hover: false,
+    };
+  },
+  methods: {
+    hoverItem: function () {
+      const triggers = document.querySelectorAll("#hoverItem");
+      const triggerArray = Array.from(triggers).entries();
+
+      for (let [index, trigger] of triggerArray) {
+        const addHover = () => {
+          triggers[index].classList.add("pulseNeon");
+        };
+        const removeHover = () => {
+          triggers[index].classList.remove("pulseNeon");
+        };
+        trigger.addEventListener("mouseenter", addHover);
+        trigger.addEventListener("mouseleave", removeHover);
+      }
+    },
+  },
+  beforeMount() {
+    this.hoverItem();
   },
   mounted() {
     (function () {

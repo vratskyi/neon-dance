@@ -37,7 +37,7 @@ export default {
     opacity: 0;
   }
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .page-leave-active {
     transition: all 0.5s;
   }
@@ -51,5 +51,5 @@ export default {
     transform: scale(0.5) translateX(150%);
     opacity: 0;
   }
-}
+} */
 </style>

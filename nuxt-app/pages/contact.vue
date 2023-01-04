@@ -1,5 +1,15 @@
 <template>
   <main
+    @mouseenter="
+      {
+        faq(), hoverItem();
+      }
+    "
+    @mouseleave="
+      {
+        faq(), hoverItem();
+      }
+    "
     class="relative shadow-top shadow-bottom lg:rounded-2xl lg:mr-[3.333%] 2xl:mr-[10.333%] lg:place-self-end 2xl:place-self-center h-screen lg:max-h-[90%] xl:max-h-[80%] w-full lg:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[70%] 2xl:max-h-[80%] my-auto xl:ml-[12.2222%] 2xl:mx-auto transition-all duration-300 lg:border-4 border-purple-500/30 shadow-2xl shadow-purple-500/50 bg-black/10 lg:bg-black/30 backdrop-blur overflow-y-auto"
   >
     <Head>
@@ -392,25 +402,42 @@
 
 <script>
 export default {
-  head: {
-    script: [
-      {
-        src: "/assets/js/faq.js",
-        crossorigin: "anonymous",
-      },
-    ],
-  },
-  mounted() {
-    (function () {
-      if (window.localStorage) {
-        if (!localStorage.getItem("firstLoad")) {
-          localStorage["firstLoad"] = true;
-          setTimeout(() => {
-            window.location.reload();
-          }, 1100);
-        } else localStorage.removeItem("firstLoad");
+  methods: {
+    hoverItem: function () {
+      const triggers = document.querySelectorAll("#hoverItem");
+      const triggerArray = Array.from(triggers).entries();
+
+      for (let [index, trigger] of triggerArray) {
+        const addHover = () => {
+          triggers[index].classList.add("pulseNeon");
+        };
+        const removeHover = () => {
+          triggers[index].classList.remove("pulseNeon");
+        };
+        trigger.addEventListener("mouseenter", addHover);
+        trigger.addEventListener("mouseleave", removeHover);
       }
-    })();
+    },
+    faq: function () {
+      const triggers = document.querySelectorAll(".faqButton");
+      const triggerArray = Array.from(triggers).entries();
+      const faqContent = document.querySelectorAll("#faqContent");
+
+      for (let [index, trigger] of triggerArray) {
+        const toggleModal = () => {
+          if (faqContent[index].classList.contains("hidden")) {
+            faqContent[index].classList.replace("hidden", "block");
+          } else if (faqContent[index].classList.contains("block")) {
+            faqContent[index].classList.replace("block", "hidden");
+          }
+        };
+        trigger.addEventListener("click", toggleModal);
+      }
+    },
+  },
+  beforeMount() {
+    this.hoverItem();
+    this.faq();
   },
 };
 </script>
