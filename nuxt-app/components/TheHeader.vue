@@ -165,7 +165,8 @@
           ><nuxt-img
             src="/assets/img/fullLogo.webp"
             class="mb-3 opacity-80"
-            width="120px"
+            width="120"
+            height="18"
           ></nuxt-img
         ></nuxt-link>
         <p>Copiright <span>&#169;</span> 2022</p>
