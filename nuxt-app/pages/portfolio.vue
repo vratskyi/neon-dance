@@ -1,5 +1,7 @@
 <template>
   <main
+    @mouseenter="showModal()"
+    @mouseleave="showModal()"
     class="relative shadow-top shadow-bottom lg:rounded-2xl lg:mr-[3.333%] 2xl:mr-[10.333%] lg:place-self-end 2xl:place-self-center h-screen lg:max-h-[90%] xl:max-h-[80%] w-full lg:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[70%] 2xl:max-h-[80%] my-auto xl:ml-[12.2222%] 2xl:mx-auto transition-all duration-300 lg:border-4 border-purple-500/30 shadow-2xl shadow-purple-500/50 bg-black/10 lg:bg-black/40 backdrop-blur overflow-y-auto"
   >
     <Head>
@@ -39,7 +41,7 @@
         class="grid mt-[1%] 2xl:mt-[3%] place-content-center 2xl:place-content-arround p-5 2xl:p-0"
       >
         <div
-          class="grid place-self-start 2xl:mb-10 text-white shadow-top shadow-bottom px-10 py-5 rounded-xl"
+          class="grid place-self-start 2xl:mb-10 text-white shadow-top shadow-bottom px-10 py-5 rounded-xl min-w-full"
         >
           <h3 class="text-lg md:text-4xl 2xl:text-3xl font-black">
             Here is my last projects
@@ -54,7 +56,59 @@
             >
           </h4>
         </div>
-        <portfolio-cards />
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 mb-20 lg:mb-0 mt-10 2xl:mt-0 gap-8 place-items-center"
+        >
+          <!-- Item 1 -->
+          <div class="duration-150 ease-in-out rounded-lg">
+            <div class="transition-all duration-150 hover:scale-105">
+              <button class="modalTrigger" type="button">
+                <nuxt-img
+                  src="/assets/img/water-website-min.png"
+                  class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
+                  alt=""
+                  loading="over-eager"
+                />
+              </button>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="duration-150 ease-in-out rounded-lg">
+            <div class="transition-all duration-150 hover:scale-105">
+              <button class="modalTrigger" type="button">
+                <nuxt-img
+                  src="/assets/img/online-store.png"
+                  class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="duration-150 ease-in-out rounded-lg">
+            <div class="transition-all duration-150 hover:scale-105">
+              <button class="modalTrigger" type="button">
+                <nuxt-img
+                  src="/assets/img/landing-page.png"
+                  class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="duration-150 ease-in-out">
+            <div class="transition-all duration-150 hover:scale-105">
+              <button class="modalTrigger" type="button">
+                <nuxt-img
+                  src="/assets/img/personal-blog.png"
+                  class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- MODAL 1 project -->
@@ -376,25 +430,37 @@
 
 <script>
 export default {
-  head: {
-    script: [
-      {
-        src: "/assets/js/showModal.js",
-        crossorigin: "anonymous",
-      },
-    ],
-  },
-  mounted() {
-    (function () {
-      if (window.localStorage) {
-        if (!localStorage.getItem("firstLoad")) {
-          localStorage["firstLoad"] = true;
-          setTimeout(() => {
-            window.location.reload();
-          }, 1100);
-        } else localStorage.removeItem("firstLoad");
+  methods: {
+    showModal: function () {
+      // console.log("Dude im here 😅");
+      const triggers = document.getElementsByClassName("modalTrigger");
+      const triggerArray = Array.from(triggers).entries();
+      const modals = document.querySelectorAll("#modal");
+      const closeButtons = document.getElementsByClassName("closeModal");
+      const overflow = document.querySelector(".overflow-y-auto");
+      const blurContent = document.querySelector("#blurContent");
+
+      for (let [index, trigger] of triggerArray) {
+        const toggleModal = () => {
+          if (modals[index].classList.contains("hideModal")) {
+            modals[index].classList.replace("hideModal", "showModal");
+            overflow.classList.remove("overflow-y-auto");
+            blurContent.classList.add("blur");
+          } else if (modals[index].classList.contains("showModal")) {
+            modals[index].classList.replace("showModal", "hideModal");
+            overflow.classList.add("overflow-y-auto");
+            blurContent.classList.remove("blur");
+          } else {
+            console.log("Error: can't open modal. ", modals[index]);
+          }
+        };
+        trigger.addEventListener("click", toggleModal);
+        closeButtons[index].addEventListener("click", toggleModal);
       }
-    })();
+    },
+    beforeMount() {
+      this.showModal();
+    },
   },
 };
 </script>

@@ -1,18 +1,25 @@
 <template>
   <div>
     <Html lang="en" />
-    <Head>
-      <Script
-        data-token="HC52KM9FUODR"
-        async
-        src="https://cdn.splitbee.io/sb.js"
-      ></Script>
-    </Head>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    splitbee() {
+      const { SplitbeeAnalytics } = require("@splitbee/node");
+      const analytics = new SplitbeeAnalytics("HC52KM9FUODR");
+      analytics.track({
+        userId: "DN1B7754F3XE",
+      });
+    },
+  },
+};
+</script>
 
 <style>
 @media only screen and (min-width: 600px) {

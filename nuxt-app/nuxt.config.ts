@@ -1,6 +1,19 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ["@nuxt/image-edge", "@nuxtjs/tailwindcss"],
+  modules: [
+    "@nuxt/image-edge",
+    "@nuxtjs/tailwindcss",
+    "@pinia/nuxt",
+    [
+      "@pinia/nuxt",
+      {
+        autoImports: [
+          "defineStore", // import { defineStore } from 'pinia'
+          ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
+        ],
+      },
+    ],
+  ],
 
   image: {},
   routeRules: {
@@ -8,13 +21,6 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      script: [
-        // {
-        //   src: "/assets/js/hoverItem.js",
-        //   defer: true,
-        //   crossorigin: "anonymous",
-        // },
-      ],
       title: "VRATSKYI",
       meta: [
         { charset: "utf-8" },
@@ -66,7 +72,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://vratsky.com/assets/img/fullLogo.png",
+          content: "https://vratsky.com/assets/img/shortLogo.png",
         },
         {
           property: "og:title",

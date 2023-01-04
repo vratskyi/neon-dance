@@ -1,5 +1,4 @@
 function showModal() {
-  // console.log("modalShow script is loaded");
   const triggers = document.getElementsByClassName("modalTrigger");
   const triggerArray = Array.from(triggers).entries();
   const modals = document.querySelectorAll("#modal");

@@ -4,12 +4,12 @@
       class="grid grid-cols-1 md:grid-cols-2 mb-20 lg:mb-0 mt-10 2xl:mt-0 gap-8 place-items-center"
     >
       <!-- Item 1 -->
-      <div class="duration-300 ease-in-out rounded-lg">
-        <div class="transition-all duration-300 hover:scale-105">
+      <div class="duration-150 ease-in-out rounded-lg">
+        <div class="transition-all duration-150 hover:scale-105">
           <button class="modalTrigger" type="button">
             <nuxt-img
               src="/assets/img/water-website-min.png"
-              class="max-w-[300px] w-full aspect-video transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500"
+              class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
               alt=""
               loading="over-eager"
             />
@@ -17,36 +17,36 @@
         </div>
       </div>
       <!-- Item 2 -->
-      <div class="duration-300 ease-in-out rounded-lg">
-        <div class="transition-all duration-300 hover:scale-105">
+      <div class="duration-150 ease-in-out rounded-lg">
+        <div class="transition-all duration-150 hover:scale-105">
           <button class="modalTrigger" type="button">
             <nuxt-img
               src="/assets/img/online-store.png"
-              class="max-w-[300px] w-full aspect-video transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500"
+              class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
               alt=""
             />
           </button>
         </div>
       </div>
       <!-- Item 3 -->
-      <div class="duration-300 ease-in-out rounded-lg">
-        <div class="transition-all duration-300 hover:scale-105">
+      <div class="duration-150 ease-in-out rounded-lg">
+        <div class="transition-all duration-150 hover:scale-105">
           <button class="modalTrigger" type="button">
             <nuxt-img
               src="/assets/img/landing-page.png"
-              class="max-w-[300px] w-full aspect-video transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500"
+              class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
               alt=""
             />
           </button>
         </div>
       </div>
       <!-- Item 4 -->
-      <div class="duration-300 ease-in-out">
-        <div class="transition-all duration-300 hover:scale-105">
+      <div class="duration-150 ease-in-out">
+        <div class="transition-all duration-150 hover:scale-105">
           <button class="modalTrigger" type="button">
             <nuxt-img
               src="/assets/img/personal-blog.png"
-              class="max-w-[300px] w-full aspect-video transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500"
+              class="max-w-[300px] w-full aspect-video transition-all duration-150 hover:shadow-2xl hover:shadow-indigo-500"
               alt=""
             />
           </button>

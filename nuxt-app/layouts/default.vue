@@ -3,7 +3,7 @@
     <TheHeader />
     <div
       id="toast-success"
-      class="hidden bg-gradient-to-r from-blue-500/30 to-purple-500/10 py-5 px-4 xl:px-5 xl:py-3 2xl:p-5 rounded-xl absolute top-2 2xl:left-[25%] left-0 right-0 xl:right-[3%] 2xl:right-[50%] z-[9999] flex items-center mb-4 w-full max-w-5xl text-white bg-white/10"
+      class="hidden bg-gradient-to-r from-blue-500/80 to-purple-500/60 py-5 px-4 xl:px-5 xl:py-3 2xl:p-5 rounded-xl absolute top-2 2xl:left-[25%] left-0 right-0 xl:right-[3%] 2xl:right-[50%] z-[9999] flex items-center mb-4 w-full max-w-5xl text-white bg-white/10 backdrop-blur-3xl"
       role="alert"
     >
       <div
