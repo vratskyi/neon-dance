@@ -7,7 +7,7 @@
 It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*), in general I hope someone will like this project, and on its basis you can create something of your own.
 
 >### [🔥Live preview](https://vratsky.com/)
-
+> **Stable release will be soon, but you can use it right now😊**
 # Technologies
 
  1. **[Nuxt 3](https://nuxt.com/)** - **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
