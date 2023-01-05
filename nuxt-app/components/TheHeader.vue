@@ -176,7 +176,7 @@
         >
           Neon Dance <span>v.0.2.2</span> Creator:
           <span class="block">
-            <a href="https://www.behance.net/alexvracky" target="_blank"
+            <a href="https://github.com/vratskyi/neon-dance" target="_blank"
               >Oleksii Vratskyi</a
             >
           </span>
