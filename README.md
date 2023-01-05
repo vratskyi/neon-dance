@@ -37,6 +37,6 @@ It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*)
  ┃ ┗ 📜services.vue
  ┃ ┗ 📜contact.vue
  ┣ 📂public
- ┗ 📜nuxt.config.ts
- ┗ 📜tailwind.config.js
+ ┣ 📜nuxt.config.ts
+ ┣ 📜tailwind.config.js
  ┗ 📜package.json
