@@ -1,5 +1,6 @@
-# Neon Dance - Free Portfolio Website
 ![Neon Dance Preview](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac9593159959367.63aa216bf3dff.png)
+
+# Neon Dance - Free Portfolio Website
 
 ### Hi everyone! I am happy to show you my first open source project on github.
 
