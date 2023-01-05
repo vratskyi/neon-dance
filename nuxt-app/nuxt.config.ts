@@ -21,14 +21,6 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      // script: [
-      //   {
-      //     src: "/assets/js/flowbite.js",
-      //     async: true,
-      //     defer: true,
-      //     crossorigin: "anonymous",
-      //   },
-      // ],
       title: "VRATSKYI",
       meta: [
         { charset: "utf-8" },
@@ -52,7 +44,7 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "IT, blog, front-end, tricks, css, html, development, ui, ux, design, figma, order, website, services, create website on vue, create website on nuxt",
+            "IT, blog, front-end, tricks, css, html, development, ui, ux, design, figma, order, website, services, create website on vue, create website on nuxt, webdesign",
         },
         {
           property: "og:type",
