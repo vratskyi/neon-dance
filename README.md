@@ -54,23 +54,15 @@ These are the goals that are very important at the moment, when they will be ful
 > - [ ]  **Decomposition** - Separation of reusable elements into components
 > - [ ]  **[Strapi](https://strapi.io/)** - Integration with Strapi CMS, easy management of site content, without the 					need for knowledge of the code.
 
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# Neon Dance Instalation
 
 ## Setup
 
 Make sure to install the dependencies:
-
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+- Copy this `📂nuxt-app` directory into your project 
+- Open `📂nuxt-app` directory via `cd nuxt-app` in terminal of your code editor
+- Run this commands `npm install` ,  `yarn install` , `pnpm install --shamefully-hoist`
 ```
 
 ## Development Server
@@ -78,7 +70,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+To start dev server run this command: `npm run dev`
 ```
 
 ## Production
@@ -95,7 +87,13 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+## Deploy
+
+Generate static files to deploy on hosting
+```bash
+npm run generate
+```
+In the `📂output` directory will be generated public folder, all the files in the public folder, you can transfer to the hosting, then the site will work.
 
 # Support project
 
