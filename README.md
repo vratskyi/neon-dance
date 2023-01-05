@@ -1,3 +1,4 @@
+
 ![Neon Dance Preview](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac9593159959367.63aa216bf3dff.png)
 
 <div align="center">
@@ -15,6 +16,15 @@ It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*)
 
 >### [🔥Live preview](https://vratsky.com/)
 > **Release will be soon, but you can use it right now😊**
+
+###   A little bit about myself
+
+My name is Oleksii Vratskyi, and I am a freelancer from Ukraine, I am engaged in website development in different directions for several years, in this time I have managed to work with online stores, landing pages, blogs, etc. 
+
+Over the past couple of years as much as I can to learn, I have achieved what you see in this repository now, I was able to create SSR sites, not badly optimized too, I will continue to develop and learn, because this is what I live.
+
+>By the way, I am now actively looking for a job, I would be happy to consider any options😇
+
 # Technologies
 
  1. **[Nuxt 3](https://nuxt.com/)** - **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
@@ -111,4 +121,4 @@ You can help develop this project, if you know such technologies as Nuxt 3, Vue 
 If You would like to help but have no skills in this area, you can donate any amount to this project, all donators I will point out in the githab repository, social media, as well as in the comments in the project code. Such people should be especially rewarded.
 
 Support: https://www.patreon.com/vratsk1y
-If you need other ways, email me on social media😇
+If you need other ways, email me on social media😊
