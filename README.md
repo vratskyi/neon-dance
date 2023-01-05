@@ -1,5 +1,9 @@
 ![Neon Dance Preview](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac9593159959367.63aa216bf3dff.png)
 
+<div align="center">
+<a href="https://discord.gg/6V6PZhck"> <img src="https://img.shields.io/badge/Neon%20Dance-Discord-blue"> </a>
+</div>
+
 # Neon Dance - Free Portfolio Website 😎🔥
 
 ### Hi everyone! I am happy to show you my first open source project on github.
