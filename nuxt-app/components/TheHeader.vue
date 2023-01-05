@@ -174,7 +174,7 @@
         <p
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
         >
-          Neon Dance <span>v.0.2.1</span> Creator:
+          Neon Dance <span>v.0.2.2</span> Creator:
           <span class="block">
             <a href="https://www.behance.net/alexvracky" target="_blank"
               >Oleksii Vratskyi</a
