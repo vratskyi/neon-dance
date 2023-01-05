@@ -21,7 +21,7 @@ It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*)
 # Structure
 
 ```
-📦Neon Dance
+📦NUXT-APP
  ┣ 📂.nuxt
  ┣ 📂.output
  ┣ 📂components
