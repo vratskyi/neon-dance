@@ -3,6 +3,7 @@
 <div align="center">
 <a href="https://discord.gg/6V6PZhck" target="_blank"> <img src="https://img.shields.io/badge/Neon%20Dance-Discord-blueviolet"> </a>
 <a href="https://t.me/vratsky1" target="_blank"> <img src="https://img.shields.io/badge/Personal-Telegram-blue"> </a>
+<a href="https://github.com/vratskyi/neon-dance/tree/master" target="_blank"> <img src="https://img.shields.io/badge/Stability-Stable-success"> </a>
 </div>
 
 # Neon Dance - Free Portfolio Website 😎🔥
