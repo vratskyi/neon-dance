@@ -104,3 +104,6 @@ You can help develop this project, if you know such technologies as Nuxt 3, Vue 
 ### Or another way to support project
 
 If You would like to help but have no skills in this area, you can donate any amount to this project, all donators I will point out in the githab repository, social media, as well as in the comments in the project code. Such people should be especially rewarded.
+
+Support: https://www.patreon.com/vratsk1y
+If you need other ways, email me on social media😇
