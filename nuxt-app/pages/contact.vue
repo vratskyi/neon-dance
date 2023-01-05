@@ -125,6 +125,7 @@
             method="POST"
             action="order_water.php"
             enctype="multipart/form-data"
+            @submit.prevent
             class="grid"
           >
             <div class="grid lg:grid-cols-2 gap-x-4">
