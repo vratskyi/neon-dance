@@ -4,7 +4,7 @@
 
 ### Hi everyone! I am happy to show you my first open source project on github.
 
-It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*), in general I hope someone will like this project, and on its basis you can create something of your own, of course it is not deprived of technical flaws, such as decomposition and unfinished methods in VueJs, these problems over time I will fix.
+It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*), in general I hope someone will like this project, and on its basis you can create something of your own.
 
 
 
