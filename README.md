@@ -9,9 +9,9 @@ It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*)
 
 # Technologies
 
- 1. **[Nuxt 3](https://nuxt.com/)** --- **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
+ 1. **[Nuxt 3](https://nuxt.com/)** -- **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
     open source framework under MIT license that makes web development
     simple and powerful.
     
- 2. [**Vue 3**](https://vuejs.org/) --- **The  Progressive  JavaScript Framework**, An approachable, performant and versatile framework for building web user interfaces.
- 3. **[TailwindCSS](https://tailwindcss.com/)** ---  **Rapidly build modern websites without ever leaving your HTML**, A utility-first CSS framework packed with classes like  `flex`,  `pt-4`,  `text-center`  and  `rotate-90`  that can be composed to build any design, directly in your markup.
+ 2. [**Vue 3**](https://vuejs.org/) -- **The  Progressive  JavaScript Framework**, An approachable, performant and versatile framework for building web user interfaces.
+ 3. **[TailwindCSS](https://tailwindcss.com/)** --  **Rapidly build modern websites without ever leaving your HTML**, A utility-first CSS framework packed with classes like  `flex`,  `pt-4`,  `text-center`  and  `rotate-90`  that can be composed to build any design, directly in your markup.
