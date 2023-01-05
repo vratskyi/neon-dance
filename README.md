@@ -1,6 +1,7 @@
 ![Neon Dance Preview](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac9593159959367.63aa216bf3dff.png)
 
 <div align="center">
+<a href="https://www.behance.net/alexvracky" target="_blank"> <img src="https://img.shields.io/badge/Behance-Profile-ff69b4"> </a>
 <a href="https://discord.gg/6V6PZhck" target="_blank"> <img src="https://img.shields.io/badge/Neon%20Dance-Discord-blueviolet"> </a>
 <a href="https://t.me/vratsky1" target="_blank"> <img src="https://img.shields.io/badge/Personal-Telegram-blue"> </a>
 <a href="https://github.com/vratskyi/neon-dance/tree/master" target="_blank"> <img src="https://img.shields.io/badge/Stability-Stable-success"> </a>
