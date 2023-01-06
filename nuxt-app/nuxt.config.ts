@@ -21,6 +21,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      script: [
+        {
+          src: "https://cdn.splitbee.io/sb.js",
+          "data-token": "HC52KM9FUODR",
+          async: true,
+          crossorigin: "anonymous",
+        },
+      ],
       title: "VRATSKYI",
       meta: [
         { charset: "utf-8" },
