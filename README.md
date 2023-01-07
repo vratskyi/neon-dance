@@ -75,7 +75,6 @@ These are the goals that are very important at the moment, when they will be ful
 
 ## Setup
 
-Make sure to install the dependencies:
 ```bash
 - Copy this `📂nuxt-app` directory into your project 
 - Open `📂nuxt-app` directory via `cd nuxt-app` in terminal of your code editor
