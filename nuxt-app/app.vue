@@ -1,3 +1,5 @@
+import { ErrorCodes } from 'vue';
+
 <template>
   <div>
     <Html lang="en" />
