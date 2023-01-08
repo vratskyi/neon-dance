@@ -4,7 +4,7 @@ import { ErrorCodes } from 'vue';
   <div>
     <Html lang="en" />
     <NuxtLayout>
-      <NuxtPage> <ErrorCodes /> </NuxtPage>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
