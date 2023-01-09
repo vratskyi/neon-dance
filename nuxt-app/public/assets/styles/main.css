@@ -15,9 +15,6 @@
   .hideModal {
     @apply scale-0 opacity-0 invisible;
   }
-  .menuTrigger[aria-current="page"] {
-    @apply scale-105 bg-black/20 text-white;
-  }
 }
 
 /* for 3d effect */
