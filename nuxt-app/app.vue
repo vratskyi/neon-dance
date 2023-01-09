@@ -12,16 +12,16 @@ import { ErrorCodes } from 'vue';
 <style>
 @media only screen and (min-width: 600px) {
   .page-leave-active {
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
   .page-enter-active {
-    transition: all 0.5s;
+    transition: all 0.25s;
   }
   .page-enter-from {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   .page-leave-to {
-    transform: scale(0);
+    transform: scale(0.95);
     opacity: 0;
   }
 }
