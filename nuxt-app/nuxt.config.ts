@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
+    "nuxt-delay-hydration",
     [
       "@pinia/nuxt",
       {
@@ -14,10 +15,16 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  buildModules: ["@nuxtjs/web-vitals"],
 
   image: {},
   routeRules: {
     // '/portfolio': { static: true  },
+  },
+  delayHydration: {
+    // enables nuxt-delay-hydration in dev mode for testing
+    debug: process.env.NODE_ENV === "development",
+    mode: "mount",
   },
   app: {
     head: {
