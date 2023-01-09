@@ -1,7 +1,6 @@
 <template>
   <main
     @mouseenter="showModal()"
-    @mouseleave="showModal()"
     class="relative shadow-top shadow-bottom lg:rounded-2xl lg:mr-[3.333%] 2xl:mr-[10.333%] lg:place-self-end 2xl:place-self-center h-screen lg:max-h-[90%] xl:max-h-[80%] w-full lg:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[70%] 2xl:max-h-[80%] my-auto xl:ml-[12.2222%] 2xl:mx-auto transition-all duration-300 lg:border-4 border-purple-500/30 shadow-2xl shadow-purple-500/50 bg-black/10 lg:bg-black/40 backdrop-blur overflow-y-auto"
   >
     <Head>
@@ -458,7 +457,7 @@ export default {
         closeButtons[index].addEventListener("click", toggleModal);
       }
     },
-    beforeMount() {
+    mounted() {
       this.showModal();
     },
   },

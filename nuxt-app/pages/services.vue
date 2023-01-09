@@ -1058,7 +1058,7 @@ export default {
           localStorage["firstLoad"] = true;
           setTimeout(() => {
             window.location.reload();
-          }, 1100);
+          }, 750);
         } else localStorage.removeItem("firstLoad");
       }
     })();
