@@ -21,7 +21,7 @@
         <li>
           <nuxt-link
             to="/"
-            class="menuTrigger inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
+            class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
             <div
               class="inline-grid place-items-center font-extralight text-xs md:text-lg lg:text-sm"
@@ -48,7 +48,7 @@
         <li>
           <nuxt-link
             to="/about"
-            class="menuTrigger inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
+            class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
             <div
               class="inline-grid place-items-center font-extralight text-xs md:text-lg lg:text-sm"
@@ -78,7 +78,7 @@
         <li>
           <nuxt-link
             to="/portfolio"
-            class="menuTrigger inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
+            class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
             <div
               class="inline-grid place-items-center font-extralight text-xs md:text-lg lg:text-sm"
@@ -106,7 +106,7 @@
         <li>
           <nuxt-link
             to="/services"
-            class="menuTrigger inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
+            class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
             <div
               class="inline-grid place-items-center font-extralight text-xs md:text-lg lg:text-sm"
@@ -133,7 +133,7 @@
         <li>
           <nuxt-link
             to="/contact"
-            class="menuTrigger inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
+            class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
             <div
               class="inline-grid place-items-center font-extralight text-xs md:text-lg lg:text-sm"
@@ -161,15 +161,13 @@
       <div
         class="hidden lg:grid grid-rows-2 z-40 text-center py-2 text-xs text-white/80"
       >
-        <nuxt-link to="/"
-          ><nuxt-img
-            src="/assets/img/fullLogo.webp"
-            class="mb-3 opacity-80"
-            width="120"
-            height="18"
-            alt="Oleksii Vratskyi - full logo"
-          ></nuxt-img
-        ></nuxt-link>
+        <nuxt-img
+          src="/assets/img/fullLogo.webp"
+          class="mb-3 opacity-80"
+          width="120"
+          height="18"
+          alt="Oleksii Vratskyi - full logo"
+        ></nuxt-img>
         <p>Copiright <span>&#169;</span> 2022</p>
         <p
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
@@ -185,3 +183,11 @@
     </nav>
   </header>
 </template>
+
+<style scoped>
+.router-link-active.router-link-exact-active {
+  color: white;
+  transform: scale(1.05);
+  background-color: rgb(0 0 0 / 0.2);
+}
+</style>
