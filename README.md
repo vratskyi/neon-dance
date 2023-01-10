@@ -64,9 +64,7 @@ Very glad that I was able to achieve these results, but that's not all, there is
  ┗ 📜package.json
 ```
 
-# Road Map
-
-These are the goals that are very important at the moment, when they will be fulfilled of course there will be others.
+# Road Map v1.0.0*
 
 > - [ ]  **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
 > - [ ]  **Decomposition** - Separation of reusable elements into components
