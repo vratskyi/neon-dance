@@ -15,7 +15,6 @@ export default defineNuxtConfig({
       },
     ],
   ],
-  buildModules: ["@nuxtjs/web-vitals"],
 
   image: {},
   routeRules: {
