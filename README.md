@@ -98,6 +98,12 @@ Build the application for production:
 npm run build
 ```
 
+Run TailwindCSS:
+
+```bash
+npm run css
+```
+
 Locally preview production build:
 
 ```bash
@@ -108,7 +114,6 @@ npm run preview
 
 Generate static files to deploy on hosting
 
-=======
 ```bash
 npm run generate
 ```
