@@ -173,7 +173,7 @@
           height="18"
           alt="Oleksii Vratskyi - full logo"
         ></nuxt-img>
-        <p>Copiright <span>&#169;</span> 2022</p>
+        <p>Copiright <span>&#169;</span> 2023</p>
         <p
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
         >
