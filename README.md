@@ -43,7 +43,7 @@ Very glad that I was able to achieve these results, but that's not all, there is
 # Structure
 
 ```
-📦NUXT-APP
+📦NeonDance
  ┣ 📂.nuxt
  ┣ 📂.output
  ┣ 📂components
