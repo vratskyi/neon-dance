@@ -6,7 +6,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite.{js,ts}",
   ],
   theme: {
     extend: {
@@ -20,6 +20,6 @@ module.exports = {
     require("autoprefixer"),
     require("cssnano"),
     require("postcss"),
-    require("flowbite/plugin"),
+    require("flowbite"),
   ],
 };

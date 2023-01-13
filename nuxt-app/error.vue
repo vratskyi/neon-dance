@@ -1,8 +1,6 @@
 <template>
   <NuxtLayout name="default" class="flex flex-col text-center">
-    <div
-      class="relative shadow-top shadow-bottom lg:rounded-2xl grid grid-cols-1 lg:mr-[3.333%] 2xl:mr-[10.333%] place-content-center lg:place-self-end 2xl:place-self-center h-screen lg:max-h-[90%] xl:max-h-[80%] w-full lg:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[70%] 2xl:max-h-[80%] my-auto xl:ml-[12.2222%] 2xl:mx-auto transition-all duration-300 lg:border-4 border-purple-500/30 shadow-2xl shadow-purple-500/50 bg-black/10 lg:bg-black/30 md:backdrop-blur"
-    >
+    <div class="main-container place-content-center">
       <p
         class="main-title font-black uppercase text-shadow neonText bg-clip-text text-white/50 mb-4"
       >
