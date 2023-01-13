@@ -178,9 +178,12 @@
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
         >
           Neon Dance <span>v.0.2.7</span>
-          GitHub:
-          <span class="block uppercase">
-            <a href="https://github.com/vratskyi/neon-dance" target="_blank"
+          <span>
+            GitHub:
+            <a
+              href="https://github.com/vratskyi/neon-dance"
+              class="uppercase"
+              target="_blank"
               >vratskyi</a
             >
           </span>
