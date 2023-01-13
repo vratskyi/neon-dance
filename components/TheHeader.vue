@@ -177,10 +177,11 @@
         <p
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
         >
-          Neon Dance <span>v.0.2.7</span> Creator:
-          <span class="block">
+          Neon Dance <span>v.0.2.7</span>
+          GitHub:
+          <span class="block uppercase">
             <a href="https://github.com/vratskyi/neon-dance" target="_blank"
-              >Oleksii Vratskyi</a
+              >vratskyi</a
             >
           </span>
         </p>
