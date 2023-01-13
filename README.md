@@ -1,4 +1,3 @@
-
 ![Neon Dance Preview](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ac9593159959367.63aa216bf3dff.png)
 
 <div align="center">
@@ -25,17 +24,19 @@ Over the past couple of years as much as I can to learn, I have achieved what yo
 
 >By the way, I am now actively looking for a job, I would be happy to consider any options😇
 
+
 # Technologies
 
- 1. **[Nuxt 3](https://nuxt.com/)** - **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
+1.  **[Nuxt 3](https://nuxt.com/)** - **The Intuitive Web Framework**, Build your next Vue.js application with confidence using Nuxt. An
     open source framework under MIT license that makes web development
     simple and powerful.
-    
- 2. [**Vue 3**](https://vuejs.org/) - **The  Progressive  JavaScript Framework**, An approachable, performant and versatile framework for building web user interfaces.
- 3. **[TailwindCSS](https://tailwindcss.com/)** -  **Rapidly build modern websites without ever leaving your HTML**, A utility-first CSS framework packed with classes like  `flex`,  `pt-4`,  `text-center`  and  `rotate-90`  that can be composed to build any design, directly in your markup.
+2.  [**Vue 3**](https://vuejs.org/) - **The Progressive JavaScript Framework**, An approachable, performant and versatile framework for building web user interfaces.
+3.  **[TailwindCSS](https://tailwindcss.com/)** - **Rapidly build modern websites without ever leaving your HTML**, A utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
 
 # SEO & Speed Optimization
+
 > ![Neon Dance page speed](https://vratsky.com/assets/img/neon-dance-page-speed-insights.png)
+
 
 Very glad that I was able to achieve these results, but that's not all, there is always room to strive, stay tuned :)
 
@@ -69,11 +70,13 @@ Very glad that I was able to achieve these results, but that's not all, there is
 > - [ ]  **Decomposition** - Separation of reusable elements into components
 > - [ ]  **[Strapi](https://strapi.io/)** - Integration with Strapi CMS, easy management of site content, without the 					need for knowledge of the code.
 
+
 # Neon Dance Instalation
 
 ## Setup
 
 ```bash
+
 - Copy this `📂nuxt-app` directory into your project 
 - Open `📂nuxt-app` directory via `cd nuxt-app` in terminal of your code editor
 - Run this commands `npm install` ,  `yarn install` , `pnpm install --shamefully-hoist`
@@ -104,9 +107,12 @@ npm run preview
 ## Deploy
 
 Generate static files to deploy on hosting
+
+=======
 ```bash
 npm run generate
 ```
+
 In the `📂output` directory will be generated public folder, all the files in the public folder, you can transfer to the hosting, then the site will work.
 
 # Support project
