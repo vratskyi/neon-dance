@@ -11,19 +11,19 @@
 
 ### Hi everyone! I am happy to show you my first open source project on github.
 
-It is created in the style of Neon Cyberpunk, (_was inspired by cyberpunk 2077_), in general I hope someone will like this project, and on its basis you can create something of your own.
+It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*), in general I hope someone will like this project, and on its basis you can create something of your own.
 
-> ### [🔥Live preview](https://vratsky.com/)
->
+>### [🔥Live preview](https://vratsky.com/)
 > **Release will be soon, but you can use it right now😊**
 
-### A little bit about myself
+###   A little bit about myself
 
-My name is Oleksii Vratskyi, and I am a freelancer from Ukraine, I am engaged in website development in different directions for several years, in this time I have managed to work with online stores, landing pages, blogs, etc.
+My name is Oleksii Vratskyi, and I am a freelancer from Ukraine, I am engaged in website development in different directions for several years, in this time I have managed to work with online stores, landing pages, blogs, etc. 
 
 Over the past couple of years as much as I can to learn, I have achieved what you see in this repository now, I was able to create SSR sites, not badly optimized too, I will continue to develop and learn, because this is what I live.
 
-> By the way, I am now actively looking for a job, I would be happy to consider any options😇
+>By the way, I am now actively looking for a job, I would be happy to consider any options😇
+
 
 # Technologies
 
@@ -36,6 +36,7 @@ Over the past couple of years as much as I can to learn, I have achieved what yo
 # SEO & Speed Optimization
 
 > ![Neon Dance page speed](https://vratsky.com/assets/img/neon-dance-page-speed-insights.png)
+
 
 Very glad that I was able to achieve these results, but that's not all, there is always room to strive, stay tuned :)
 
@@ -63,18 +64,20 @@ Very glad that I was able to achieve these results, but that's not all, there is
  ┗ 📜package.json
 ```
 
-# Road Map v1.0.0\*
+# Road Map v1.0.0*
 
-> - [ ] **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
-> - [ ] **Decomposition** - Separation of reusable elements into components
-> - [ ] **[Strapi](https://strapi.io/)** - Integration with Strapi CMS, easy management of site content, without the need for knowledge of the code.
+> - [ ]  **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
+> - [ ]  **Decomposition** - Separation of reusable elements into components
+> - [ ]  **[Strapi](https://strapi.io/)** - Integration with Strapi CMS, easy management of site content, without the 					need for knowledge of the code.
+
 
 # Neon Dance Instalation
 
 ## Setup
 
 ```bash
-- Copy this `📂nuxt-app` directory into your project
+
+- Copy this `📂nuxt-app` directory into your project 
 - Open `📂nuxt-app` directory via `cd nuxt-app` in terminal of your code editor
 - Run this commands `npm install` ,  `yarn install` , `pnpm install --shamefully-hoist`
 ```
@@ -105,6 +108,7 @@ npm run preview
 
 Generate static files to deploy on hosting
 
+=======
 ```bash
 npm run generate
 ```
