@@ -68,7 +68,7 @@ Very glad that I was able to achieve these results, but that's not all, there is
 
 > - [ ]  **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
 > - [ ]  **Decomposition** - Separation of reusable elements into components
-> - [ ]  **[Strapi](https://strapi.io/)** - Integration with Strapi CMS, easy management of site content, without the 					need for knowledge of the code.
+> - [ ]  **[Strapi](https://strapi.io/)** - Strapi is the leading open-source headless CMS. It’s 100% JavaScript and fully customizable.
 
 
 # Neon Dance Instalation
