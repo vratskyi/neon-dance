@@ -20,6 +20,7 @@
       >
         <li>
           <nuxt-link
+            id="hoverItem"
             to="/"
             class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
@@ -47,6 +48,7 @@
         </li>
         <li>
           <nuxt-link
+            id="hoverItem"
             to="/about"
             class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
@@ -77,6 +79,7 @@
         </li>
         <li>
           <nuxt-link
+            id="hoverItem"
             to="/portfolio"
             class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
@@ -105,6 +108,7 @@
         </li>
         <li>
           <nuxt-link
+            id="hoverItem"
             to="/services"
             class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
@@ -132,6 +136,7 @@
         </li>
         <li>
           <nuxt-link
+            id="hoverItem"
             to="/contact"
             class="inline-block py-4 px-3.5 lg:px-6 transition-all hover:scale-105 hover:bg-black/20 hover:text-white rounded-[28px] lg:rounded-lg"
           >
@@ -168,11 +173,11 @@
           height="18"
           alt="Oleksii Vratskyi - full logo"
         ></nuxt-img>
-        <p>Copiright <span>&#169;</span> 2022</p>
+        <p>Copiright <span>&#169;</span> 2023</p>
         <p
           class="text-white/50 shadow-top shadow-bottom p-2 rounded-2xl text-[10px]"
         >
-          Neon Dance <span>v.0.2.3</span> Creator:
+          Neon Dance <span>v.0.2.7</span> Creator:
           <span class="block">
             <a href="https://github.com/vratskyi/neon-dance" target="_blank"
               >Oleksii Vratskyi</a
@@ -189,5 +194,6 @@
   color: white;
   transform: scale(1.05);
   background-color: rgb(0 0 0 / 0.2);
+  animation: pulsate 1.5s infinite alternate;
 }
 </style>
