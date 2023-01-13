@@ -66,8 +66,8 @@ Very glad that I was able to achieve these results, but that's not all, there is
 
 # Road Map v1.0.0*
 
-> - [ ]  **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
-> - [ ]  **Decomposition** - Separation of reusable elements into components
+> - :white_check_mark:  **Optimization** - Code optimization, reworking the use of Vue.JS methods, bug fixes.
+> - :white_check_mark:  **Decomposition** - Separation of reusable elements into components
 > - [ ]  **[Strapi](https://strapi.io/)** - Strapi is the leading open-source headless CMS. It’s 100% JavaScript and fully customizable.
 
 
