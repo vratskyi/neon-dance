@@ -7,14 +7,14 @@
 <a href="https://github.com/vratskyi/neon-dance/tree/master" target="_blank"> <img src="https://img.shields.io/badge/Version-0.2.7-success"> </a>
 </div>
 
-# Neon Dance - Free Portfolio Website 😎🔥
+# Neon Dance - Portfolio Website 😎🔥
 
 ### Hi everyone! I am happy to show you my first open source project on github.
 
 It is created in the style of Neon Cyberpunk, (*was inspired by cyberpunk 2077*), in general I hope someone will like this project, and on its basis you can create something of your own.
 
 >### [🔥Live preview](https://vratsky.com/)
-> **Release will be soon, but you can use it right now😊**
+> **Strapi version here: <a href="https://github.com/vratskyi/NeonDance-Strapi" target="_blank"> check out </a> 😊**
 
 ###   A little bit about myself
 
